@@ -11,4 +11,8 @@ import scrapy
 class GamelistItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    gameName = scrapy.Field()
+    pageLink = scrapy.Field()
+    gameContent = scrapy.Field()
+    downLoad = scrapy.Field()
+    passwd = scrapy.Field()
